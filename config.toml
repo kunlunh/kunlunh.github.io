@@ -1,4 +1,4 @@
-baseURL = "https://yoursite.example.com/"
+baseURL = "/"
 footnoteReturnLinkContents = "↩"
 title = "HKL's Notes"
 paginate = 7
