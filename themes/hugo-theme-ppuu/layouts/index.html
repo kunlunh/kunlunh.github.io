@@ -1,0 +1,76 @@
+
+{{ define "main" -}}
+
+<div class="page">
+
+{{ range ( .Paginate (where .Site.RegularPages "Type" "post")).Pages }}
+
+	<div class="page-item post-list col-md-12">			
+		<div class="row">
+			<div class="col-md-8">
+				<ul class="page-item-title">
+					<li><time class="timeago meta" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2006-01-02" }}</time>
+					<li><a class="title text-light" href="{{ .Permalink }}">{{ .Title }}</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 hide-on-phone float-right">
+				<ul class="page-item-title float-right meta">
+					<li><a href="{{ .Permalink }}#comments">
+						评论<i class="fa fa-commenting-o"></i></a></li>
+					<li><a href="{{ .Permalink }}">全文 <i class="fa fa-ellipsis-h"></i></a></li>
+					<li><a class="pib-indicator">预览 <i class="fa fa-expand"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 page-item-body">
+				{{ .Summary }}
+				{{ if .Truncated }}
+				<p class="more"><a class="text-light" href="{{ .Permalink }}" title="{{ .Title }}">- 阅读剩余部分 -</a>
+				{{ end }}
+			</div>
+		</div>	
+	</div>
+{{- end }}	
+
+	{{ template "_internal/pagination.html" . }}
+	
+</div>
+<script>
+	function closest(el, selector) {
+	  const matchesSelector = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
+
+	  while (el) {
+		if (matchesSelector.call(el, selector)) {
+		  return el;
+		} else {
+		  el = el.parentElement;
+		}
+	  }
+	  return null;
+	}
+	var superToggle = function(element, class0, class1) {
+	  element.classList.toggle(class0);
+	  element.classList.toggle(class1);
+	}
+	document.addEventListener("DOMContentLoaded", function(event) { 
+		var pib = document.getElementsByClassName('pib-indicator');
+		document.getElementsByClassName('page-item-body')[0].style.display = 'block';
+		superToggle(pib[0].getElementsByClassName('fa')[0],'fa-compress', 'fa-expand');
+		var count = 0;
+		for (count ; count < pib.length; count++) {
+			pib[count].addEventListener("click", function() {
+				superToggle(this.getElementsByClassName('fa')[0],'fa-expand', 'fa-compress');
+				//var el = this.closest('.page-item').querySelectorAll('.page-item-body')[0];  //no ie support 
+				var el = closest(this,'.page-item').getElementsByClassName('page-item-body')[0];   //support ie10+
+				if (el.style.display === "none" || el.style.display == "") {
+					el.style.display = "block";
+				  } else {
+					el.style.display = "none";
+				  }	
+			});
+		}
+	});
+	</script>
+{{- end }}

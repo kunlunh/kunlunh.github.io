@@ -1,0 +1,17 @@
+baseURL = "https://yoursite.example.com/"
+footnoteReturnLinkContents = "↩"
+title = "HKL's Notes"
+paginate = 7
+theme = "hugo-theme-ppuu"
+
+[params]
+  AuthorName = "Kunlun"
+  GitHubUser = "hiplon"
+  ListOfFoo = ["foo1", "foo2"]
+  SidebarRecentLimit = 5
+  Subtitle = "Just record things."
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+  pages = "/page/:filename"
+
