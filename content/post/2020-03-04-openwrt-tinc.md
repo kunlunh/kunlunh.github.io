@@ -435,7 +435,7 @@ C:\Program Files\TAP-Windows\bin>pause
 
 然后创建好文件目录
 
-```bash
+```powershell
 C:\Program Files\tinc\tincnet 的目录
 
 2020/03/04  16:14    <DIR>          .
@@ -481,7 +481,7 @@ Subnet = 192.168.212.116/32
 
 生成密钥
 
-```
+```powershell
 C:\Program Files\tinc>.\tinc.exe -n tincnet
 tinc.tincnet> generate-rsa-keys
 Generating 2048 bits keys:
@@ -505,7 +505,7 @@ C:\Program Files\tinc>
 
 PING其他Slave节点测试
 
-```
+```powershell
 C:\Program Files\tinc>ping 192.168.212.12
 
 正在 Ping 192.168.212.12 具有 32 字节的数据:
@@ -547,9 +547,9 @@ iptables -t nat -A POSTROUTING -s 192.168.212.0/24 -o br-lan -j SNAT --to 192.16
 
 
 
-[1]: https://img.ppuu.org/img/2020/03/20200304143813.png
-[2]: https://img.ppuu.org/img/2020/03/20200304154535.png
-[3]: https://img.ppuu.org/img/2020/03/20200304154619.png
-[4]: https://img.ppuu.org/img/2020/03/20200304161158.png
-[5]: https://img.ppuu.org/img/2020/03/20200304161220.png
-[6]: https://img.ppuu.org/img/2020/03/20200304162426.png
+[1]: https://img.jnuer.com/img/2020/03/20200304143813.png
+[2]: https://img.jnuer.com/img/2020/03/20200304154535.png
+[3]: https://img.jnuer.com/img/2020/03/20200304154619.png
+[4]: https://img.jnuer.com/img/2020/03/20200304161158.png
+[5]: https://img.jnuer.com/img/2020/03/20200304161220.png
+[6]: https://img.jnuer.com/img/2020/03/20200304162426.png
