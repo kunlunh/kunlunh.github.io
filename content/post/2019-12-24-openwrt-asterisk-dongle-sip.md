@@ -257,9 +257,9 @@ exten => +862022221234,1,Dial(IAX2/6010,60,Trg) ;呼入设置，我这边就是�
 
 ![呼出测试2][6]
 
-  [1]: https://img.ppuu.org/img/2019/12/20191227124047.png
-  [2]: https://img.ppuu.org/img/2019/12/20191227152546.jpg
-  [3]: https://img.ppuu.org/img/2019/12/20191227125331.png
-  [4]: https://img.ppuu.org/img/2019/12/20191227152644.jpg
-  [5]: https://img.ppuu.org/img/2019/12/20191227152140.png
-  [6]: https://img.ppuu.org/img/2019/12/20191227154556.jpg
+  [1]: https://img.jnuer.com/img/2019/12/20191227124047.png
+  [2]: https://img.jnuer.com/img/2019/12/20191227152546.jpg
+  [3]: https://img.jnuer.com/img/2019/12/20191227125331.png
+  [4]: https://img.jnuer.com/img/2019/12/20191227152644.jpg
+  [5]: https://img.jnuer.com/img/2019/12/20191227152140.png
+  [6]: https://img.jnuer.com/img/2019/12/20191227154556.jpg

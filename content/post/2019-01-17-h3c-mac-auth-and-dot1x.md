@@ -34,7 +34,7 @@ updated: 2019/02/12 13:59:53
 <!--more-->
 
 
-![ARCH](https://img.ppuu.org/img/2019/01/20190101.png "ARCH")
+![ARCH](https://img.jnuer.com/img/2019/01/20190101.png "ARCH")
 
 (2)对大部分终端实行基于证书的802.1x验证方式接入
 

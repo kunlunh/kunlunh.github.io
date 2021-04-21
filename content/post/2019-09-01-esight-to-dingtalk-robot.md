@@ -14,11 +14,11 @@ title: Huawei esight to 钉钉dingding (RESTful API)
 Huawei esight告警本身不能使用dingtalk,wechat等webhook api，但是其自带了一个HTTPS SMS Server，经过分析，可以通过这个功能将其转换成其它API接口可用的数据。
 
 
-![package](https://img.ppuu.org/img/2019/09/20190902194202.png)
+![package](https://img.jnuer.com/img/2019/09/20190902194202.png)
 
 抓包看了一下，这明显是个Get方法，Huawei esight直接当成了post写，也是666，所以正常情况我们不是要在esight的HTTPS SMS Server将方法改成GET
 
-![att](https://img.ppuu.org/img/2019/09/20190902193343.png)
+![att](https://img.jnuer.com/img/2019/09/20190902193343.png)
 
 实现很简单，我就是用了flask处理了一下拿到的数据，然后再重组一下发到新的API接口就行了。
 

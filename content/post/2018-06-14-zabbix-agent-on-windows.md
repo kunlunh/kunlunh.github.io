@@ -82,7 +82,7 @@ PATH_to_Zabbix_Conf\zabbix_agentd.win.conf --uninstall
 ![IMG4][4]
 
 
-  [1]: http://img.ppuu.org/img/2018/06/01.jpg
-  [2]: http://img.ppuu.org/img/2018/06/02.jpg
-  [3]: http://img.ppuu.org/img/2018/06/03.jpg
-  [4]: http://img.ppuu.org/img/2018/06/04.jpg
+  [1]: http://img.jnuer.com/img/2018/06/01.jpg
+  [2]: http://img.jnuer.com/img/2018/06/02.jpg
+  [3]: http://img.jnuer.com/img/2018/06/03.jpg
+  [4]: http://img.jnuer.com/img/2018/06/04.jpg

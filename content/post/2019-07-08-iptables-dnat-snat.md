@@ -27,4 +27,4 @@ iptables -t nat -A POSTROUTING -s 0.0.0.0/0 -o br-lan(内网网卡名字) -j SNA
 
 ![IMG1][1]
 
-  [1]: https://img.ppuu.org/img/2019/07/nat.png
+  [1]: https://img.jnuer.com/img/2019/07/nat.png

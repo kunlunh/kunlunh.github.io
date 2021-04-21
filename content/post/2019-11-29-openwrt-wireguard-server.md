@@ -165,9 +165,9 @@ refer:
 1.[WireGuard basic](https://openwrt.org/docs/guide-user/services/vpn/wireguard/basic)
 
 
-  [1]: https://img.ppuu.org/img/2019/11/20191129145744.png
-  [2]: https://img.ppuu.org/img/2019/11/20191129151055.png
-  [3]: https://img.ppuu.org/img/2019/11/20191129151659.png
-  [4]: https://img.ppuu.org/img/2019/11/20191129152237.png
-  [5]: https://img.ppuu.org/img/2019/11/20191129152552.png
-  [6]: https://img.ppuu.org/img/2019/11/20191129153455.png
+  [1]: https://img.jnuer.com/img/2019/11/20191129145744.png
+  [2]: https://img.jnuer.com/img/2019/11/20191129151055.png
+  [3]: https://img.jnuer.com/img/2019/11/20191129151659.png
+  [4]: https://img.jnuer.com/img/2019/11/20191129152237.png
+  [5]: https://img.jnuer.com/img/2019/11/20191129152552.png
+  [6]: https://img.jnuer.com/img/2019/11/20191129153455.png

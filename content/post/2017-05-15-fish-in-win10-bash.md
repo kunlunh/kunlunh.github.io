@@ -19,7 +19,7 @@ updated: 2019/02/12 14:03:43
 （以fish为例）
 
 `sudo apt install fish`
-![img](//img.ppuu.org/img/2017/05/01.jpg)
+![img](//img.jnuer.com/img/2017/05/01.jpg)
 
 
 安装之后使用`fish`命令尝试启动。能成功启动则继续下一步。
@@ -34,7 +34,7 @@ updated: 2019/02/12 14:03:43
 通过在用户目录`~`中编辑`.bashrc`文件。
 
 `vim .bashrc`
-![img](//img.ppuu.org/img/2017/05/02.jpg)
+![img](//img.jnuer.com/img/2017/05/02.jpg)
 
 
 并在配置文件首部分加入一下配置信息：
@@ -45,12 +45,12 @@ if [ -t 1 ]; then
 fi
 ```
 
-![img](//img.ppuu.org/img/2017/05/03.jpg)
+![img](//img.jnuer.com/img/2017/05/03.jpg)
 
 
 
 保存文件后推出Bash并重启即可。
-![img](//img.ppuu.org/img/2017/05/04.jpg)
+![img](//img.jnuer.com/img/2017/05/04.jpg)
 
 ------
 

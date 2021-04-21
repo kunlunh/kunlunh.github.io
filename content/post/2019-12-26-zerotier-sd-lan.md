@@ -40,6 +40,6 @@ title: 通过Zerotier跨NAT组大内网
 
 
 
-  [1]: https://img.ppuu.org/img/2019/12/20191226174610.png
-  [2]: https://img.ppuu.org/img/2019/12/20191226174632.png
-  [3]: https://img.ppuu.org/img/2019/12/20191226174952.png
+  [1]: https://img.jnuer.com/img/2019/12/20191226174610.png
+  [2]: https://img.jnuer.com/img/2019/12/20191226174632.png
+  [3]: https://img.jnuer.com/img/2019/12/20191226174952.png

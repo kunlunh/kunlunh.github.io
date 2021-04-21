@@ -118,5 +118,5 @@ output {
 
 ```
 
-  [1]: https://img.ppuu.org/img/2019/11/20191122093131.png
-  [2]: https://img.ppuu.org/img/2019/11/20191122093435.png
+  [1]: https://img.jnuer.com/img/2019/11/20191122093131.png
+  [2]: https://img.jnuer.com/img/2019/11/20191122093435.png
