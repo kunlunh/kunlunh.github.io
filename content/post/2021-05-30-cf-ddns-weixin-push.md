@@ -17,6 +17,7 @@ title: OpenWRT一脚本通过Cloudfalre API更新IP并推送至企业微信
 <!--more-->
 
 脚本代码如下
+
 ```bash
 #!/bin/sh
 wanip_v4=`curl -s -4 ip.sb`    #通过ip.sb提供的服务查询本地出口IPv4地址，有多种实现
