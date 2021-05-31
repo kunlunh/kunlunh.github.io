@@ -3,16 +3,16 @@ author: HKL
 categories:
 - 默认分类
 date: "2021-05-31T15:20:00+08:00"
-slug: wx-server-chan-openwrt
+slug: wx-serverchan-openwrt
 status: publish
 tags:
 - Linux
 - Operating
 - Networking
-title: OpenWRT简易版serverhan脚本推送至企业微信
+title: OpenWRT简易版serverchan脚本推送至企业微信
 ---
 
-本文主要介绍简易版serverhan脚本推送至企业微信。
+本文主要介绍简易版serverchan脚本推送至企业微信。
 
 <!--more-->
 
@@ -27,9 +27,9 @@ resub=1
 push1="1"				# Push online devices
 push_ddns="1"			# Push ddns message
 qywxpusher_enable="1"	# Enable ServerChan
-corp_id='wwcxxxxxxxxx'    #你的企业微信企业ID
-app_secret='xxxxxxxxx'    #你的企业微信应用secret
-app_id='100000X'    #你的企业微信应用ID
+#corp_id='wwcxxxxxxxxx'    #你的企业微信企业ID
+#app_secret='xxxxxxxxx'    #你的企业微信应用secret
+#app_id='100000X'    #你的企业微信应用ID
 
 
 
@@ -59,17 +59,25 @@ lastIPAddress() {
 
 # Get online devices
 test(){
-	alias=`cat /tmp/dhcp.leases`
-	cat /proc/net/arp | sed 's/(//;s/)//' | while read -r IP HW FLAGS MAC MASK DEVICE
-	do
-	    #echo $DEVICE
+	alias=`cat /root/devicelist`
+        cat /proc/net/arp | grep -v "Mask" | sed 's/(//;s/)//' | while read -r IP HW FLAGS MAC MASK DEVICE
+        do
         if [ $DEVICE == "br-lan" ]; then
-		NAME=`echo "$alias" | awk '/'$MAC'\ '$IP'/{print $4}'`
-        echo $NAME $IP >> /tmp/tmp/newhostname.txt
-        #echo $NAME $IP
-		fi
-	done
+            #echo $DEVICE
+                NAME=`echo "$alias" | awk '/'$MAC'\ '$IP'/{print $4}'`
+            if [ ! -n "$NAME" ]; then
+                    NAME="Unknown"
+            else
+                    NAME=${NAME}
+            fi
+            echo $NAME $IP >> /tmp/tmp/newhostname.txt
+            #echo $NAME $IP
+        fi
+        done
+~
+
 }
+
 
 while [ "$qywxpusher_enable" == "1" ];
 do
@@ -97,20 +105,18 @@ if [ "$lastIP" != "$hostIP" ] && [ ! -z "$hostIP" ] ; then
     logger -t "公网IP变动" "上次 IP: ${lastIP}"
 	if [ "$?" == "0" ] ; then
 		if [ "$push_ddns" = "1" ] ; then
-            wxpushcontent='New IP addr \n'${hostIP}
+            wxpushcontent='New WAN IP address: '${hostIP}
             msg_token=`curl -s -X GET "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=$corp_id&corpsecret=$app_secret"`
             echo $msg_token > /tmp/tmp/wx.json
             wx_token=`jsonfilter -i /tmp/tmp/wx.json -e '$.access_token'`
             curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=$wx_token" \
                -H "Content-Type: application/json" \
               --data "{\"touser\":\"@all\",\"agentid\":\"$app_id\",\"text\": {\"content\":\"$wxpushcontent\"}, \"msgtype\":\"text\",\"safe\":0}" &
-			#curl -s "http://sctapi.ftqq.com/$serverchan_sckey.send?text=703N的ip更新啦" -d "&desp=${hostIP}" &
 			logger -t "wechat push" "IP: ${hostIP} pushed"
 		fi
 		echo -n $hostIP > /tmp/tmp/lastIPAddress
 	fi
 fi
-
 if [ `cat /tmp/tmp/pushDevice` = "1" ] ; then
     # 设备上、下线提醒
     # 获取接入设备名称
@@ -126,7 +132,8 @@ if [ `cat /tmp/tmp/pushDevice` = "1" ] ; then
     awk 'NR==FNR{a[$0]++} NR>FNR&&!a[$0]' /tmp/tmp/newhostname_same_online.txt /tmp/tmp/newhostname.txt > /tmp/tmp/newhostname_uniqe_online.txt
     if [ -s "/tmp/tmp/newhostname_uniqe_online.txt" ] ; then
 		content=`cat /tmp/tmp/newhostname_uniqe_online.txt | grep -v "^$"`
-        wxpushcontent='设备上线通知\n---------------\n'${content}
+        onlineDev=`cat /tmp/tmp/hostname_online.txt | grep -v "^$"`
+        wxpushcontent='设备上线通知\n------------------\n'${content}'\n\n------------------\n'${onlineDev}
         msg_token=`curl -s -X GET "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=$corp_id&corpsecret=$app_secret"`
             echo $msg_token > /tmp/tmp/wx.json
             wx_token=`jsonfilter -i /tmp/tmp/wx.json -e '$.access_token'`
@@ -141,7 +148,8 @@ if [ `cat /tmp/tmp/pushDevice` = "1" ] ; then
     awk 'NR==FNR{a[$0]++} NR>FNR&&!a[$0]' /tmp/tmp/newhostname.txt /tmp/tmp/hostname_online.txt > /tmp/tmp/newhostname_uniqe_offline.txt
     if [ -s "/tmp/tmp/newhostname_uniqe_offline.txt" ] ; then
        content=`cat /tmp/tmp/newhostname_uniqe_offline.txt | grep -v "^$"`
-       wxpushcontent='设备上线通知\n---------------\n'${content}
+       onlineDev=`cat /tmp/tmp/hostname_online.txt | grep -v "^$"`
+       wxpushcontent='设备下线通知\n------------------\n'${content}'\n\n------------------\n'${onlineDev}
         msg_token=`curl -s -X GET "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=$corp_id&corpsecret=$app_secret"`
             echo $msg_token > /tmp/tmp/wx.json
             wx_token=`jsonfilter -i /tmp/tmp/wx.json -e '$.access_token'`
@@ -159,7 +167,7 @@ else
 logger -t "wxpusher service" "Check network failed."
 resub=1
 fi
-sleep 100
+sleep 30
 continue
 done
 
