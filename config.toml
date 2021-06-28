@@ -1,8 +1,8 @@
 baseURL = "/"
 footnoteReturnLinkContents = "↩"
 title = "HKL's Notes"
-paginate = 7
-theme = "hugo-theme-ppuu"
+paginate = 10
+theme = "lighthouse100-theme"
 
 [params]
   AuthorName = "Kunlun"
