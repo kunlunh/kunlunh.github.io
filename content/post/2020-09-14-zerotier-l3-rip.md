@@ -153,7 +153,7 @@ rtt min/avg/max/mdev = 14.592/16.344/19.022/1.572 ms
 root@ubuntu-lxc:/etc/apt# 
 ```
 
-  [1]: https://i.imgur.com/MDg1hzo/
+  [1]: https://i.imgur.com/MDg1hzo.png
 
 
 
