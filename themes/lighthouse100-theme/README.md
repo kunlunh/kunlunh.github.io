@@ -1,13 +1,13 @@
-# A Hugo theme with Bootstrap 4
+# A Hugo theme scored 100 in lighthouse test
 
 ## Screenshot
 
-![IMG](https://github.com/wo5/hugo-theme-ppuu/raw/master/images/screenshot.png)
+![IMG](https://github.com/hiplon/lighthouse100-theme/raw/master/images/screenshot.png)
 
 
-## Demo https://ppuu.org
+## Demo https://vnf.cc
 
-### hugo blog file tree
+### Blog file tree
 ```
 .
 └── content
