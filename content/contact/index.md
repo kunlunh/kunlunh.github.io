@@ -4,7 +4,7 @@ title:  About Me
 ---
 
 
-## Welcome!
+#### Welcome!
 		
 My Linkedin: [www.linkedin.com/in/huangkunlun](https://www.linkedin.com/in/huangkunlun)
 
@@ -12,6 +12,12 @@ MSTP via HK to Internet: [Temporary Unavailable]()
 
 
 Guangzhou,China
+
+📧Email Address:
+
+For Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x24641D55FB0B9DCF to HKL#RISEUP.NET (#->@)
+
+For Non-Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x9EC848AE067E4566 to KUNLUN.HUANG#foxmail.com (#->@) or directly to KUNLUN.HUANG#foxmail.com
 
 
 ---
