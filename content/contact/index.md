@@ -15,9 +15,25 @@ Guangzhou,China
 
 📧Email Address:
 
-For Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x24641D55FB0B9DCF to HKL#RISEUP.NET (#->@)
+For Confidential: PGP 
 
-For Non-Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x9EC848AE067E4566 to KUNLUN.HUANG#foxmail.com (#->@) or directly to KUNLUN.HUANG#foxmail.com
+```txt
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEYNxFtRYJKwYBBAHaRw8BAQdAwmSb5XuN/coPX6tPW74MiLBNUP2QyQ5A
+WFAslsLA6rXNHUt1bmx1biBIdWFuZyA8aGtsQHJpc2V1cC5uZXQ+wncEEBYK
+AB8FAmDcRbUGCwkHCAMCBBUICgIDFgIBAhkBAhsDAh4BAAoJECRkHVX7C53P
+QfIA/3av7lisdHL98gLf89HoSgwtf+qkdCVDueOKkgdQcSvDAPwNbGbq6V95
+PimNJiEheyTQBSZDWXyRXOI70pIw0ToGA844BGDcRbUSCisGAQQBl1UBBQEB
+B0D8ovXpSX0n8Ujl/INNaBhEtlmpb86mN/HP5hmfLNLuGAMBCAfCYQQYFggA
+CQUCYNxFtQIbDAAKCRAkZB1V+wudzyTsAQCGjlZyU7+S4Vlbg1PDVThNZI14
+hGFTElvLj9FI3K2ExwD9G3/H7i+QPHbVqyjcX+vOgYGJ8692hz05MWjcADrg
+vwE=
+=IwRD
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+For Non-Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x9EC848AE067E4566 to KUNLUN.HUANG#FOXMAIL.com (#->@) or directly to KUNLUN.HUANG#FOXMAIL.com
 
 
 ---
