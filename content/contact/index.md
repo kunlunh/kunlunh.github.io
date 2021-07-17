@@ -32,8 +32,5 @@ YN/FlwIbDAAKCRBm63JBn3XKvIzPAQC/51MZEeUWxBBaDA7hz2B/b8Cko45M
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For Non-Confidential: PGP https://keys.mailvelope.com/pks/lookup?op=get&search=0x9EC848AE067E4566 to KUNLUN.HUANG#FOXMAIL.com (#->@) or directly to KUNLUN.HUANG#FOXMAIL.com
-
-
----
+For Non-Confidential: PGP https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2bd86e166917126a00fd76c69ec848ae067e4566 to KUNLUN.HUANG#FOXMAIL.com (#->@) or directly to KUNLUN.HUANG#FOXMAIL.com
 
