@@ -9,7 +9,7 @@ tags:
 - Linux
 - Operating
 - Networking
-title: n2n动态路由器异地组网方案
+title: n2n动态路由异地组网方案
 ---
 
 本文主要介绍通过n2n结合动态路由RIP的异地组网方案，经过近一年的使用，比较稳定，所以分享一下。
