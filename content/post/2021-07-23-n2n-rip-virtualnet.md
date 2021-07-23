@@ -18,11 +18,11 @@ title: n2n动态路由器异地组网方案
 <!--more-->
 
 
-###（0）前言及网络拓扑
+**（0）前言及网络拓扑**
 
 首先简单说一下组网的拓扑: ![Topo][1]
 
-此前在v站我的博客也有陆续发过一些异地组网的方法：
+此前在v站和[我的博客](https://vnf.cc) 也有陆续发过一些异地组网的方法：
 
 [通过 N2N 组网并运行 OSPF 动态路由 on OpenWRT](https://v2ex.com/t/734161)
 
@@ -37,12 +37,12 @@ title: n2n动态路由器异地组网方案
 现在分享一下已经稳定运行一年多的方案，n2n + quagga-rip，方案只需一个带公网IP的服务器作握手/中继（也可以用n2n官网提供的[不推荐]），在网络环境较好的情况下基本握手后可以实现直接穿透。
 
 
-###（1）安装配置n2n
+**（1）安装配置n2n**
 
 [n2n软件](https://github.com/ntop/n2n) 主要实现peer-to-peer虚拟组网功能，编译快速，配置简单，稳定。一般同类的软件有zerotier, tinc, ... 本人基本都用过，综合考虑使用n2n, 其它同类软件实现功能一样。
 
 
-** SuperNode 节点：**
+**SuperNode 节点：**
 
 n2n SuperNode 节点类似于zerotier的planet或者moons，用作握手或者中继，
 
@@ -70,7 +70,7 @@ supernode -l <local port> -c <path> [-u <uid> -g <gid>] [-t <mgmt port>] [-v]
 
 ```
 
-** EdgeNode 节点：**
+**EdgeNode 节点：**
 
 EdgeNode 节点运行在各接入网段网关上，本人主要是运行其在各个拨号的OpenWRT路由器网关上，这样更加便利地将各个网段互联：
 
@@ -91,7 +91,7 @@ root@XMOPWRT:~# cat /etc/n2n/edge.conf
 
 ```
 
-** 启动n2n **
+**启动n2n**
 
 SuperNode
 
@@ -106,7 +106,7 @@ EdgeNode
 /etc/init.d/edge start
 ```
 
-** 内网IP **
+**内网IP**
 
 ```bash
 root@XMOPWRT:~# ip addr
@@ -147,11 +147,11 @@ round-trip min/avg/max = 15.340/15.340/15.340 ms
 
 ```
 
-###（2）安装配置quagga
+**（2）安装配置quagga**
 
 主要通过quagga并通过RIP路由协议实现动态路由，
 
-** 各EdgeNode节点安装quagga-ripd **
+**各EdgeNode节点安装quagga-ripd**
 
 ```bash
 opkg install quagga-ripd quagga quagga-libzebra quagga-zebra quagga-watchquagga
@@ -175,7 +175,7 @@ line vty
 
 ```
 
-** 启动quagga-ripd **
+**启动quagga-ripd**
 
 EdgeNode
 
@@ -228,7 +228,7 @@ Control-C
 ```
 
 
-###（3）iptables配置
+**（3）iptables配置**
 
 ```bash
 iptables -A input_rule -i tinc+ -j ACCEPT
