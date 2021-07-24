@@ -24,18 +24,19 @@ title: n2n动态路由异地组网方案
 
 此前在v站和[我的博客](https://vnf.cc) 也有陆续发过一些异地组网的方法：
 
-[通过 N2N 组网并运行 OSPF 动态路由 on OpenWRT](https://v2ex.com/t/734161)
+[通过 N2N 组网并运行 OSPF 动态路由 on OpenWRT](/2020/12/ospf-via-n2n-on-openwrt/)
 
-[用动态路由打通各 Virtual L2（Zerotier）网络](https://v2ex.com/t/707060)
+[用动态路由打通各 Virtual L2（Zerotier）网络](/2020/09/zerotier-l3-rip/)
 
-[OpenWRT 结合 tinc 组自己的 SDLAN（Step by Step）](https://v2ex.com/t/649829)
+[OpenWRT 结合 tinc 组自己的 SDLAN（Step by Step）](/2020/03/openwrt-tinc/)
 
-[OpenWRT 搭建 WireGuard 服务器](https://v2ex.com/t/624344)
+[OpenWRT 搭建 WireGuard 服务器](/2019/11/openwrt-wireguard-server/)
 
 大家收藏点赞挺多的，就是没啥回复😆
 
 现在分享一下已经稳定运行一年多的方案，n2n + quagga-rip，方案只需一个带公网IP的服务器作握手/中继（也可以用n2n官网提供的[不推荐]），在网络环境较好的情况下基本握手后可以实现直接穿透。
 
+最终实现效果就是拓扑中各内网IP可以直接互联。
 
 **（1）安装配置n2n**
 
