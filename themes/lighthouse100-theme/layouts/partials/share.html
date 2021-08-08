@@ -1,7 +1,7 @@
 <div class="share">
 	
 	<ul>
-	<li>Feeling Lucky at:</li>
+	<li>Recent posts:</li>
 	<ul>        
 	{{- range ( where site.RegularPages "Section" "post" | first 3 ) }}
 		{{if eq .Type "post" }}
