@@ -1,7 +1,8 @@
 <div class="share">
 	
 	<ul>
-	<li>估计你也会喜欢:</li>
+	<li>Feeling Lucky at:</li>
+	<small>
 	<ul>        
 	{{- range ( where site.RegularPages "Section" "post" | first 3 ) }}
 		{{if eq .Type "post" }}
@@ -9,7 +10,7 @@
 		{{ end }}
 	{{ end }}   
 	</ul>
-	
+	<small>
 	</ul>
 	<div style="text-align:center;">
 	Articles are licensed by <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
