@@ -9,7 +9,7 @@ tags:
 - Linux
 - Operating
 - Networking
-title: 一种基于虚拟机做网关的组网方案(以PVE作为Host,OpenWRT作为VM Gateway为例)
+title: 一种基于虚拟机做网关的组网方案(PVE+OpenWRT VM为例)
 ---
 
 本文主要介绍一种基于虚拟化平台使用VM作网关的组网方案(本文以PVE作为Host,OpenWRT作为VM Gateway为例)。
