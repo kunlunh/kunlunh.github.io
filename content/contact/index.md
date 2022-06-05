@@ -32,5 +32,5 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For Non-Confidential: PGP https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2bd86e166917126a00fd76c69ec848ae067e4566 to KUNLUN.HUANG#FOXMAIL.com (#->@) or directly to KUNLUN.HUANG#FOXMAIL.com
+For Non-Confidential: PGP https://keyserver.ubuntu.com/pks/lookup?op=hget&search=af40882b50b5ee6abf369dd05186555e to wongkl#foxmail.com (#->@) 
 
