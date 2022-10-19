@@ -6,7 +6,7 @@ title:  About Me
 
 #### Welcome!
 		
-My Linkedin: [www.linkedin.com/in/huangkunlun](https://www.linkedin.com/in/huangkunlun)
+My Linkedin: [www.linkedin.com/in/huangkunlun/](https://www.linkedin.com/in/huangkunlun/)
 
 MSTP via HK to Internet: [Temporary Unavailable]()
 
