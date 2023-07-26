@@ -27,3 +27,8 @@ title: 2021-06 LFCS考试经验
 分值低但是比较复杂的是一些文件比较，文件类型，还需要知道ls的各个参数用法，crontab的准确用法，用户管理的准确用法，启用软RAID的命令。
 
 另外要过滤结果，基本上熟练通过grep、awk就能够做到，同时有些题目可能用命令不好实现也可以通过自己判断，将结果人工敲在答案位置即可。
+
+![LFCS Certificate][1]
+
+
+  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/06/705110ac0982.png
