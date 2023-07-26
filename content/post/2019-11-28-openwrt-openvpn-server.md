@@ -326,7 +326,7 @@ refer:
 
 2.[Openvpn 2.4 设置用户密码认证](http://www.89cool.com/811.html)
 
-  [1]: https://img.jnuer.com/img/2019/11/20191129084037.png
-  [2]: https://img.jnuer.com/img/2019/11/20191129084740.png
-  [3]: https://img.jnuer.com/img/2019/11/20191129090929.png
-  [4]: https://img.jnuer.com/img/2019/11/20191129095816.png
+  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/kWcLKdG.png
+  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/ZpAwGkI.png
+  [3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/kGqkfsA.png
+  [4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/LLJYn5E.png

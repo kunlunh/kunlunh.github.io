@@ -547,9 +547,9 @@ iptables -t nat -A POSTROUTING -s 192.168.212.0/24 -o br-lan -j SNAT --to 192.16
 
 
 
-[1]: https://img.jnuer.com/img/2020/03/20200304143813.png
-[2]: https://img.jnuer.com/img/2020/03/20200304154535.png
-[3]: https://img.jnuer.com/img/2020/03/20200304154619.png
-[4]: https://img.jnuer.com/img/2020/03/20200304161158.png
-[5]: https://img.jnuer.com/img/2020/03/20200304161220.png
-[6]: https://img.jnuer.com/img/2020/03/20200304162426.png
+[1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/ZZ5YnMW.png
+[2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/qPjKs3p.png
+[3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/jtK6xEu.png
+[4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/DxLLu3U.png
+[5]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/rQ6gIiX.png
+[6]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2020/03/wuRp59p.png
