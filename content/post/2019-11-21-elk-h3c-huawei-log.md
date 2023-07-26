@@ -118,5 +118,5 @@ output {
 
 ```
 
-  [1]: https://img.jnuer.com/img/2019/11/20191122093131.png
-  [2]: https://img.jnuer.com/img/2019/11/20191122093435.png
+  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/gs9rnjtshh.png
+  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/o4fgoj6hny.png
