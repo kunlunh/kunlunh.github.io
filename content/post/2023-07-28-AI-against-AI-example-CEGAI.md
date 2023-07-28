@@ -18,7 +18,7 @@ Career Essentials in Generative AI by Microsoft and LinkedIn is a free course so
 
 <!--more-->
 
-The exam is challeges, I decided to slove it with ChatGPT. And the final souce is 83.
+The exam is challeged, I decided to slove it with ChatGPT. And the final souce is 83.
 
 ![PIC1][1]
 
