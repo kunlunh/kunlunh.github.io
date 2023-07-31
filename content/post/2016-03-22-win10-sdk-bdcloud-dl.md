@@ -9,6 +9,7 @@ status: publish
 tags:
 - Coding
 - Windows
+- Microsoft
 title: Windows SDK 10.0.10586.15 离线安装包
 updated: 2019/01/29 16:41:33
 ---

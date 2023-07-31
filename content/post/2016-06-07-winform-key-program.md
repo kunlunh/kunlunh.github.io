@@ -9,6 +9,7 @@ status: publish
 tags:
 - Coding
 - Windows
+- Microsoft
 title: C# 如何给Winform的button等控件添加快捷键
 updated: 2019/01/29 17:31:27
 ---
