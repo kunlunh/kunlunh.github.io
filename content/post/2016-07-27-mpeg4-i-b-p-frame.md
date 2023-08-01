@@ -8,6 +8,8 @@ slug: mpeg4-i-b-p-frame
 status: publish
 tags:
 - Coding
+- ffmpeg
+- Music
 title: MPEG4视频中，I帧、p帧、B帧的判定（转载）
 updated: 2019/01/29 17:35:59
 ---
