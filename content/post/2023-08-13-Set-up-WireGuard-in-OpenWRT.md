@@ -11,7 +11,7 @@ tags:
 title: Set up WireGuard Server in OpenWRT
 ---
 
-***This article is an AI translation of the [original version](https://vnf.cc/2019/11/openwrt-wireguard-server/). ***
+***This article is an AI translation of the [original version](https://vnf.cc/2019/11/openwrt-wireguard-server/).***
 
 This article is mainly to realize in the OpenWRT router system to build WireGuard server to facilitate remote connection.
 
