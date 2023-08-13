@@ -26,7 +26,7 @@ And the answers offered by ChatGPT can review here:
 
 https://vnf.cc/cs/CEGAI.html
 
-Another example the Twilio Programmable Messaging and Voice Professional Certificate by vnf.cc and ChatGPT (score 80):
+Another example is the Twilio Programmable Messaging and Voice Professional Certificate by vnf.cc and ChatGPT (score 80):
 
 https://vnf.cc/cs/TPMVP.html
 
