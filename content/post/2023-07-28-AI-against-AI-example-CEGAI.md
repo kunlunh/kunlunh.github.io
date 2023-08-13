@@ -14,11 +14,11 @@ title: AI against AI a example (Career Essentials in Generative AI by Microsoft 
 
 Recently, I finished the Career Essentials in Generative AI by Microsoft and LinkedIn exam by ChatGPT.
 
-Career Essentials in Generative AI by Microsoft and LinkedIn is a free course source, It helps to understand the Essentials in Generative AI.
+Career Essentials in Generative AI by Microsoft and LinkedIn is a free course source. It helps to understand the Essentials in Generative AI.
 
 <!--more-->
 
-The exam is challenged, I decided to slove it with ChatGPT. And the final souce is 83.
+The exam is challenging. I decided to solve it with ChatGPT. And the final score is 83.
 
 ![PIC1][1]
 
@@ -26,7 +26,7 @@ And the answers offered by ChatGPT can review here:
 
 https://vnf.cc/cs/CEGAI.html
 
-Another the another example that Twilio Programmable Messaging and Voice Professional Certificate by vnf.cc and ChatGPT (score 80):
+Another example the Twilio Programmable Messaging and Voice Professional Certificate by vnf.cc and ChatGPT (score 80):
 
 https://vnf.cc/cs/TPMVP.html
 
