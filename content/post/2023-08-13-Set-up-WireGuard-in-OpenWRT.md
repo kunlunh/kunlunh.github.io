@@ -11,11 +11,11 @@ tags:
 title: Set up WireGuard Server in OpenWRT
 ---
 
-***This article is an AI translation of the [original version](https://vnf.cc/2019/11/openwrt-wireguard-server/).***
+*This article is an AI translation of the [original version](https://vnf.cc/2019/11/openwrt-wireguard-server/).*
 
 This article is mainly to realize in the OpenWRT router system to build WireGuard server to facilitate remote connection.
 
-Previously, we have been using Openconnect VPN in OpenWRT, because it is SSLVPN, and it is very convenient to use with CISCO's anyconnect client. Still, because now ISPs can recognize this SSL-based traffic and block the public IP, we have to think about switching to the UDP-based OpenVPN -> WireGuard VPN. WireGuard VPN.
+Previously, we have been using Openconnect VPN in OpenWRT, because it is SSLVPN, and it is very convenient to use with CISCO's anyconnect client. Still, because now ISPs can recognize this SSL-based traffic and block the public IP, we have to think about switching to the UDP-based OpenVPN -> WireGuard VPN.
 
 Continued: In the original article sent to the V2EX above, everyone said WireGuard's performance is better and then looked at the information. If the number of Peers is not a lot of words, realizing Server/Client type of Dial-Up VPN is still feasible, so this side of the tutorials also writes more conveniently for you!
 
