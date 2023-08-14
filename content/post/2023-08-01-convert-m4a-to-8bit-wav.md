@@ -9,7 +9,7 @@ tags:
 - ffmpeg
 - Music
 - ChatGPT
-title: Convert m4a/mp3 to 8bit WAV using ffmpeg
+title: Convert m4a/mp3 to 8bit WAV using ffmpeg
 ---
 
 I Convert a m4a/mp3 to 8bit WAV using ffmpeg recently!
