@@ -11,10 +11,11 @@ tags:
 title: Install Gentoo ON Exsit Linux without VNC
 ---
 
-Install Gentoo ON Exsit Linux without VNC
 
 ## NO WARRANTY!!! BACKUP ALL YOUR DATA BEFORE OPERATING!
 ### Operating the following In the Exsiting Linux Distribution
+
+Install Gentoo ON Exsit Linux without VNC
 
 <!--more-->
 
