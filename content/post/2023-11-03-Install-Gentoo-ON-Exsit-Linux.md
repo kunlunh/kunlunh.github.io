@@ -3,12 +3,11 @@ author: HKL
 categories:
 - 默认分类
 date: "2023-11-03T22:52:00Z"
-slug: Install-Gentoo-ON-Exsit-Linux
+slug: install-gentoo-on-exsit-linux
 status: publish
 tags:
-- Networking
-- Operating
 - Linux
+- Operating
 title: Install Gentoo ON Exsit Linux without VNC
 ---
 
@@ -16,6 +15,9 @@ Install Gentoo ON Exsit Linux without VNC
 
 ## NO WARRANTY!!! BACKUP ALL YOUR DATA BEFORE OPERATING!
 ### Operating the following In the Exsiting Linux Distribution
+
+<!--more-->
+
 ```
 # Download and move the Gentoo stage3 tar package to /tmp (Exsiting Linux Distribution).
 root@ali:/tmp/stage3# cp /root/stage3-amd64-systemd-20231029T164701Z.tar.xz .
@@ -89,10 +91,9 @@ mount: /mnt/gentoo: mount point does not exist.
        dmesg(1) may have more information after failed mount system call.
 ```
 
-
 ### ! Mount the disk to /mnt/gentoo
 
- Actually, From the step, you can follow the [Gentoo's Handbook](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Base) to install the System !
+Actually, From the step, you can follow the [Gentoo's Handbook](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Base) to install the System !
  
 ```
 root@gentoo-chroot-1 # mkdir /mnt/gentoo
@@ -256,6 +257,7 @@ ali ~/.ssh # Connection closing...Socket close.
 ```
 
 #### After rebooting the system, expectedly can boot the the New Gentoo System!
+
 ```
 Connection established.
 To escape to local shell, press 'Ctrl+Alt+]'.
