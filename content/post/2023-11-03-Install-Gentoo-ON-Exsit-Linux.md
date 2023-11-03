@@ -2,7 +2,7 @@
 author: HKL
 categories:
 - 默认分类
-date: "2023-11-03T22:52:00Z"
+date: "2023-11-02T22:42:00Z"
 slug: install-gentoo-on-exsit-linux
 status: publish
 tags:
