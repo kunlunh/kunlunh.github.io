@@ -11,9 +11,10 @@ tags:
 - Linux
 title: Install Gentoo ON Exsit Linux without VNC
 ---
+
 Install Gentoo ON Exsit Linux without VNC
 
-NO WARRANTY!!! BACKUP ALL YOUR DATA BEFORE OPERATING!
+## NO WARRANTY!!! BACKUP ALL YOUR DATA BEFORE OPERATING!
 ### Operating the following In the Exsiting Linux Distribution
 ```
 # Download and move the Gentoo stage3 tar package to /tmp (Exsiting Linux Distribution).
@@ -305,4 +306,4 @@ refer:
 
 2.[ 从现有Linux系统上安装Archlinux ](https://vnf.cc/2020/07/install-archlinux-from-linux/)
 
-2.[Quick Gentoo Setup](https://gtrush.com/2022/06/12/%E6%96%B0%E6%89%8BGentoo%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%951-%E5%AE%89%E8%A3%85%E7%AF%87-%E4%BA%8C%E8%BF%9B%E5%88%B6kernel%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/)
+3.[Quick Gentoo Setup](https://gtrush.com/2022/06/12/%E6%96%B0%E6%89%8BGentoo%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%951-%E5%AE%89%E8%A3%85%E7%AF%87-%E4%BA%8C%E8%BF%9B%E5%88%B6kernel%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/)
