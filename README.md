@@ -38,3 +38,8 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 ```
 
 For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to HUANGKUNLUN#OUTLOOK.COM (#->@) or directly to HUANGKUNLUN#OUTLOOK.COM
+
+
+#### Comment
+
+For comments, please send me 📧[an email](mailto:HUANGKUNLUN@OUTLOOK.COM) or [left it on Github](https://github.com/kunlunh/kunlunh.github.io/issues). 
