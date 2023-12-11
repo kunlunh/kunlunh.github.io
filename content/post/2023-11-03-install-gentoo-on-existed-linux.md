@@ -3,12 +3,12 @@ author: HKL
 categories:
 - 默认分类
 date: "2023-11-02T22:42:00Z"
-slug: install-gentoo-on-exsit-linux
+slug: install-gentoo-on-existed-linux
 status: publish
 tags:
 - Linux
 - Operating
-title: Install Gentoo ON Exsit Linux without VNC
+title: Install Gentoo ON Existed Linux without VNC
 ---
 
 
