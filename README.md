@@ -1,4 +1,4 @@
-### AKA [VNF.CC](https://fac.pub) 
+### AKA [VNF.CC](https://vnf.cc) 
 
 ---
 
