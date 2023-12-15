@@ -31,5 +31,9 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For Non-Confidential: PGP https://keyserver.ubuntu.com/pks/lookup?op=hget&search=af40882b50b5ee6abf369dd05186555e to wongkl#foxmail.com (#->@) 
+For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to HUANGKUNLUN#OUTLOOK.COM (#->@) or directly to HUANGKUNLUN#OUTLOOK.COM
 
+
+#### Comment
+
+For comments, please send me 📧[an email](mailto:HUANGKUNLUN@OUTLOOK.COM) or [left it on Github](https://github.com/kunlunh/kunlunh.github.io/issues). 
