@@ -4,9 +4,9 @@
 
 #### 介绍
 
-BLOG: [VNF.CC](https://vnf.cc) 
+BLOG: [https://vnf.cc](https://vnf.cc/) 
 
-C.V.: [HKL.AC.CN](https://hkl.ac.cn) 
+C.V.: [https://hkl.one](https://hkl.one/) 
 
 
 #### Welcome!
