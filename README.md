@@ -44,7 +44,7 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to n4vso51d#duck.com (#->@) or directly to n4vso51d#duck.com
+For Non-Confidential: PGP to  📧[https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](PGPLINK) or directly to n4vso51d#duck.com
 
 
 #### Comment
