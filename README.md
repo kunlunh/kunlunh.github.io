@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm HUANG Kunlun</h1>
-<h3 align="center">Certifies Kubernetes Administrator, Certified Network Planner & Designer, Linux Foundation Certified System Administrator, Ericsson ETCP, former China Unicom Cloud Compute Engineer, former Ericsson Core Network Engineer, Current Staff of Public Institution in Guangzhou</h3>
+<h3 align="center">:(){ :|:& };:</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kunlunh&label=Profile%20views&color=0e75b6&style=flat" alt="kunlunh" /> </p>
 
