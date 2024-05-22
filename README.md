@@ -44,9 +44,9 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to HUANGKUNLUN#OUTLOOK.COM (#->@) or directly to HUANGKUNLUN#OUTLOOK.COM
+For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to n4vso51d#duck.com (#->@) or directly to n4vso51d#duck.com
 
 
 #### Comment
 
-For comments, please send me 📧[an email](mailto:HUANGKUNLUN@OUTLOOK.COM) or [left it on Github](https://github.com/kunlunh/kunlunh.github.io/issues). 
+For comments, please send me 📧[an email](mailto:n4vso51d@duck.com) or [left it on Github](https://github.com/kunlunh/kunlunh.github.io/issues). 
