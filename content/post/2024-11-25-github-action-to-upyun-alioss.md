@@ -76,7 +76,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --minify \
+            --minify
   # Deployment job
       - name: deploy-to-upyun
         env:
