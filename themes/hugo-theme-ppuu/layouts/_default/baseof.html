@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{{ block "header" . }}{{ partial "head.html" .}}{{ end }}
+  <body class="bg-dark">
+    <main class="text-white bg-dark">
+		<span class="statusbar"></span>
+		<!-- Wrap all page content here -->
+		<div id="wrap">
+			<div id="body" class="container">
+				<div class="row row-offcanvas row-offcanvas-left">
+					<!-- side navigation -->
+					{{ block "navbar" . }}{{ partial "navbar.html" .}}{{ end }}
+					
+					<div class="col-md-10">
+					{{ block "site-headnav" . }}{{ partial "site-headnav.html" .}}{{ end }}
+					{{ block "main" . }}{{ end }}
+					</div>
+				</div>
+			</div>
+			{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+		</div>
+    </main>
+	<script src="//s3.pstatp.com/cdn/expire-1-M/timeago.js/3.0.2/timeago.min.js"></script>
+    {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+  </body>
+</html>

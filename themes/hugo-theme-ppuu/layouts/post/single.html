@@ -1,0 +1,38 @@
+
+{{ define "main" -}}
+
+<div class="col-md-12">
+    <div class="page">
+    	<div class="page-title">
+    		{{ .Title }}
+    		<div class="meta">    		
+				
+                By <a href="{{ $.Site.BaseURL }}about/" rel="author">{{ .Site.Params.author }}</a>,             
+    			<time class="timeago" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>,
+				
+				
+    			<a href="#comments">
+                CMT<i class="fa fa-commenting-o"></i></a>
+				<p> 
+				<span>
+                {{ range .Params.tags }}
+					 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">
+					   <code class="highligher-rouge"><nobr><i class="fa fa-tag"></i>{{- . -}}</nobr></code>&nbsp;
+					 </a>
+				{{ end }}</span>
+				</p>			
+    		</div>
+			
+    	</div>
+        <div class="text-white page-content">
+            {{ .Content }}
+            <!-- Share & Comments -->
+           {{ partial "share.html" . }}           
+        </div>
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}css/markdown.css">
+		{{ partial "highlight.html" . }}
+		{{ partial "comment.html" . }}
+    </div>
+</div>
+
+{{- end }}

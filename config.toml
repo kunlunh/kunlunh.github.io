@@ -1,0 +1,17 @@
+baseURL = "/"
+footnoteReturnLinkContents = "↩"
+title = "HKL's Notes"
+paginate = 10
+theme = "lighthouse100-theme"
+
+[params]
+  AuthorName = "Kunlun"
+  GitHubUser = "hiplon"
+  ListOfFoo = ["foo1", "foo2"]
+  SidebarRecentLimit = 5
+  Subtitle = "Just record things."
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+  pages = "/page/:filename"
+
