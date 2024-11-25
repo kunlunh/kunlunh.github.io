@@ -7,8 +7,6 @@
 
 - 📝 I regularly write articles on [https://vnf.cc/](https://vnf.cc/)
 
-- 📫 How to reach me **n4vso51d@duck.com**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
@@ -36,9 +34,6 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 =IwRD
 -----END PGP PUBLIC KEY BLOCK-----
 ```
-
-For Non-Confidential: PGP [https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com](https://keys.mailvelope.com/pks/lookup?op=get&search=huangkunlun@outlook.com) to HUANGKUNLUN#OUTLOOK.COM (#->@) or directly to HUANGKUNLUN#OUTLOOK.COM
-
 
 #### Comment
 
