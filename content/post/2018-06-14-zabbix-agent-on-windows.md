@@ -82,7 +82,7 @@ PATH_to_Zabbix_Conf\zabbix_agentd.win.conf --uninstall
 ![IMG4][4]
 
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2018/06/alhwk2458n.jpeg
-  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2018/06/tvu6bi6ngt.jpeg
-  [3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2018/06/flr5rh6jyo.jpeg
-  [4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2018/06/8anqfei98f.jpeg
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2018/06/alhwk2458n.jpeg
+  [2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2018/06/tvu6bi6ngt.jpeg
+  [3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2018/06/flr5rh6jyo.jpeg
+  [4]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2018/06/8anqfei98f.jpeg

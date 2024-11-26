@@ -92,14 +92,14 @@ REF:
 
 https://www.51sec.org/2021/09/20/enable-ipv6-on-oracle-cloud-infrastructure/
 
-[1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/1.png
-[2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/2.png
-[3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/3.png
-[4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/4.webp
-[5]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/5.png
-[6]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/6.png
-[7]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/7.png
-[8]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/8.png
-[9]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/9.png
-[10]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/10.png
-[11]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2022/12/11.png
+[1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/1.png
+[2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/2.png
+[3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/3.png
+[4]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/4.webp
+[5]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/5.png
+[6]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/6.png
+[7]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/7.png
+[8]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/8.png
+[9]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/9.png
+[10]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/10.png
+[11]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2022/12/11.png

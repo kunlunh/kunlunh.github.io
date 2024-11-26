@@ -21,7 +21,7 @@ updated: 2019/02/12 14:03:07
 
 <!--more-->
 
-![The System Arch](https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/02/wp0prxr3ho.png "The System Arch")
+![The System Arch](https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/02/wp0prxr3ho.png "The System Arch")
 
 主要是通过flask实现了一个Web界面，通过ajax调用后台接口，后台接口通过paramiko ssh模块在交换机上执行ssh命令，将结果处理后返回给前端Web的一个过程。
 

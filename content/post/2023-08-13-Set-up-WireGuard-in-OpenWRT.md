@@ -171,9 +171,9 @@ refer:
 1.[WireGuard basic](https://openwrt.org/docs/guide-user/services/vpn/wireguard/basic)
 
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/D5ujQt2.png
-  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/DWEsmPg.png
-  [3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/8ePVVAd.png
-  [4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/GRGpl6C.png
-  [5]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/RqPezCM.png
-  [6]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/PFV8Vef.png
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/D5ujQt2.png
+  [2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/DWEsmPg.png
+  [3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/8ePVVAd.png
+  [4]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/GRGpl6C.png
+  [5]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/RqPezCM.png
+  [6]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/PFV8Vef.png

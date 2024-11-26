@@ -257,9 +257,9 @@ exten => +862022221234,1,Dial(IAX2/6010,60,Trg) ;呼入设置，我这边就是�
 
 ![呼出测试2][6]
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/rr971rwayw.png
-  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/o8navu8t3a.jpeg
-  [3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/ppvuess1u8.png
-  [4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/bu16kf7yx3.jpeg
-  [5]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/r6wjvf9s6k.png
-  [6]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/11/jek9b1pyhn.jpeg
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/rr971rwayw.png
+  [2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/o8navu8t3a.jpeg
+  [3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/ppvuess1u8.png
+  [4]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/bu16kf7yx3.jpeg
+  [5]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/r6wjvf9s6k.png
+  [6]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/11/jek9b1pyhn.jpeg

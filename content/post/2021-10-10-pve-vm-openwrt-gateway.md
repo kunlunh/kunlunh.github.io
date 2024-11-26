@@ -43,7 +43,7 @@ title: 一种基于虚拟机做网关的组网方案(PVE+OpenWRT VM为例)
 ![Openwrt VM status][3]
 
 
-[1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/10/20211011104136.png
-[2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/10/20211011104213.png
-[3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/10/20211011104240.png
-[4]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/10/20211011110246.png
+[1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/10/20211011104136.png
+[2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/10/20211011104213.png
+[3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/10/20211011104240.png
+[4]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/10/20211011110246.png

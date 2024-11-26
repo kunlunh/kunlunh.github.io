@@ -31,4 +31,4 @@ title: 2021-06 LFCS考试经验
 ![LFCS Certificate][1]
 
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/06/705110ac0982.png
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/06/705110ac0982.png

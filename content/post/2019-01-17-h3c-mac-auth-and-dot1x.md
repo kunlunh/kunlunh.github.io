@@ -34,7 +34,7 @@ updated: 2019/02/12 13:59:53
 <!--more-->
 
 
-![ARCH](https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/01/jb8p3y15vp.png "ARCH")
+![ARCH](https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/01/jb8p3y15vp.png "ARCH")
 
 (2)对大部分终端实行基于证书的802.1x验证方式接入
 

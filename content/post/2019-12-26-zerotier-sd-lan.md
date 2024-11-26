@@ -40,6 +40,6 @@ title: 通过Zerotier跨NAT组大内网
 
 
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/12/tfgyd8vtxs.png
-  [2]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/12/lxn2arwbs.png
-  [3]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/12/kw909wgsup.png
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/12/tfgyd8vtxs.png
+  [2]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/12/lxn2arwbs.png
+  [3]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/12/kw909wgsup.png

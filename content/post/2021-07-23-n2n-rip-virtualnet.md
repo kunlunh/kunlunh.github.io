@@ -245,4 +245,4 @@ iptables -t nat -A POSTROUTING -s 0.0.0.0/0 -o tincn0 -j SNAT --to 10.193.111.14
 ```
 
 
-[1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2021/07/topo20210723.png
+[1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2021/07/topo20210723.png

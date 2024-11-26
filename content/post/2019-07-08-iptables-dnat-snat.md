@@ -27,4 +27,4 @@ iptables -t nat -A POSTROUTING -s 0.0.0.0/0 -o br-lan(内网网卡名字) -j SNA
 
 ![IMG1][1]
 
-  [1]: https://cdn.jsdelivr.net/gh/hiplon/blog-photo/2019/07/awh7bavqyp.png
+  [1]: https://cdn.jsdelivr.net/gh/kunlunh/blog-photo/2019/07/awh7bavqyp.png
