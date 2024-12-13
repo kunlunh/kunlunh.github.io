@@ -6,10 +6,11 @@ theme = "lighthouse100-theme"
 
 [params]
   AuthorName = "Kunlun"
-  GitHubUser = "hiplon"
+  GitHubUser = "kunlunh"
   ListOfFoo = ["foo1", "foo2"]
   SidebarRecentLimit = 5
   Subtitle = "Just record things."
+  Comments = "Cares"
 
 [permalinks]
   post = "/:year/:month/:slug/"
