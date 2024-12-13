@@ -2,17 +2,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>HKL's Notes - {{ .Title }}</title>
-    <meta name="description" content="HKL's Notes" />
+    <title>{{ .Site.title }} - {{ .Title }}</title>
+    <meta name="description" content="{{ .Site.title }}" />
     <link rel="shortcut icon"  href="/favicon.ico" />
     <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
 
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}css/style.css">
 
-    <meta property="og:site_name" content="HKL's Notes">
+    <meta property="og:site_name" content="{{ .Site.title }}">
       
-    <meta property="og:title" content="HKL's Notes">
-    <meta property="og:description" content="HKL's Notes">
-    <meta property="og:url" content="https://xou.net">
+    <meta property="og:title" content="{{ .Site.title }}">
+    <meta property="og:description" content="{{ .Site.title }}">
+    <meta property="og:url" content="{{ .Site.Params.homepageurl }}">
 
   </head>

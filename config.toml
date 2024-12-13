@@ -5,12 +5,15 @@ paginate = 10
 theme = "lighthouse100-theme"
 
 [params]
-  AuthorName = "Kunlun"
+  AuthorName = "Kunlun HUANG"
   GitHubUser = "kunlunh"
-  ListOfFoo = ["foo1", "foo2"]
   SidebarRecentLimit = 5
   Subtitle = "Just record things."
   Comments = "Cares"
+  homepageurl = "https://xou.com/"
+  IssueURL = "https://github.com/kunlunh/kunlunh.github.io/issues"
+  LinkedinUser = "huangkunlun"
+  CVurl = "https://hkl.ac.cn"
 
 [permalinks]
   post = "/:year/:month/:slug/"
