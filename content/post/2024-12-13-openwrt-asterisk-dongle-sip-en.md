@@ -1,7 +1,7 @@
 ---
 author: HKL
 categories:
-- Default Category
+- Default
 date: "2024-12-13T20:42:00Z"
 slug: openwrt-asterisk-dongle-gsm-to-sip-en
 status: publish
